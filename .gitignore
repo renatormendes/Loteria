@@ -4,8 +4,8 @@
 # Ignorar arquivos binários gerados pelo programa
 *.bin
 
+# Ignorar arquivos pdf's gerados pelo programa
 *.pdf
-
 
 # Ignorar pastas de sistema
 .DS_Store
