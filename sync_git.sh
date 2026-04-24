@@ -2,7 +2,7 @@
 
 # --- Configurações por Mr. Magic ---
 # AJUSTE AQUI: Coloque a URL completa do seu repositório (ex: .../renatormendes/Loteria.git)
-REPO_URL="https://github.com"
+REPO_URL="https://github.com/renatormendes/Loteria.git"
 EMAIL_GIT="renatormendes@hotmail.com"
 NOME_GIT="renatormendes"
 
