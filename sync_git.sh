@@ -29,6 +29,9 @@ git add .
 echo "[+] Realizando Commit..."
 git commit -m "Update LottoGen Pro - $(date +'%d/%m/%Y %H:%M')"
 
+echo "[+] Sincronizando com o servidor..."
+git pull origin main --rebase
+
 echo "[+] Subindo para o GitHub..."
 # O Git pedirá seu Usuário e o Token de Acesso (PAT) nesta etapa
 git push -u origin main
