@@ -1,12 +1,8 @@
-# Ignorar arquivos compilados do Java
+# Ignorar arquivos
 *.class
-
-# Ignorar arquivos binários gerados pelo programa
 *.bin
-
-# Ignorar arquivos pdf's gerados pelo programa
 *.pdf
-
+*.sh
 # Ignorar pastas de sistema
 .DS_Store
 Thumbs.db
