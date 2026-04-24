@@ -44,8 +44,8 @@ public class LottoGen extends JFrame {
         pnlConfig.add(new JLabel(" Seu Nome:"));
         txtUsuario = new JTextField();
         pnlConfig.add(txtUsuario);
-        pnlConfig.add(new JLabel(" Números Base (Ex: 3, 5, 7):"));
-        txtNumerosBase = new JTextField("3, 5, 7");
+        pnlConfig.add(new JLabel(" Números Base (Ex: 1, 2, 3):"));
+        txtNumerosBase = new JTextField("1, 2, 3... separados por vírgulas.");
         pnlConfig.add(txtNumerosBase);
         pnlConfig.add(new JLabel(" Escolha a Loteria:"));
         comboLoteria = new JComboBox<>(new String[]{"Mega-Sena", "Quina", "LotoFácil", "Sena"});
