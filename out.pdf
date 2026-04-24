@@ -1,0 +1,101 @@
+%!PS-Adobe-3.0
+%%BeginProlog
+/imStr 0 def /imageSrc {currentfile /ASCII85Decode filter /RunLengthDecode filter  imStr readstring pop } def
+/BD {bind def} bind def
+/D {def} BD
+/C {curveto} BD
+/L {lineto} BD
+/M {moveto} BD
+/R {grestore} BD
+/G {gsave} BD
+/N {newpath} BD
+/P {closepath} BD
+/EC {eoclip} BD
+/WC {clip} BD
+/EF {eofill} BD
+/WF {fill} BD
+/SG {setgray} BD
+/SC {setrgbcolor} BD
+/ISOF {
+     dup findfont dup length 1 add dict begin {
+             1 index /FID eq {pop pop} {D} ifelse
+     } forall /Encoding ISOLatin1Encoding D
+     currentdict end definefont
+} BD
+/NZ {dup 1 lt {pop 1} if} BD
+/S {
+     moveto 1 index stringwidth pop NZ sub
+     1 index length 1 sub NZ div 0
+     3 2 roll ashow newpath} BD
+/FL [
+    /AvantGarde-Book ISOF
+    /AvantGarde-BookOblique ISOF
+    /AvantGarde-Demi ISOF
+    /AvantGarde-DemiOblique ISOF
+    /Bookman-Demi ISOF
+    /Bookman-DemiItalic ISOF
+    /Bookman-Light ISOF
+    /Bookman-LightItalic ISOF
+    /Courier ISOF
+    /Courier-Bold ISOF
+    /Courier-BoldOblique ISOF
+    /Courier-Oblique ISOF
+    /Helvetica ISOF
+    /Helvetica-Bold ISOF
+    /Helvetica-BoldOblique ISOF
+    /Helvetica-Narrow ISOF
+    /Helvetica-Narrow-Bold ISOF
+    /Helvetica-Narrow-BoldOblique ISOF
+    /Helvetica-Narrow-Oblique ISOF
+    /Helvetica-Oblique ISOF
+    /NewCenturySchlbk-Bold ISOF
+    /NewCenturySchlbk-BoldItalic ISOF
+    /NewCenturySchlbk-Italic ISOF
+    /NewCenturySchlbk-Roman ISOF
+    /Palatino-Bold ISOF
+    /Palatino-BoldItalic ISOF
+    /Palatino-Italic ISOF
+    /Palatino-Roman ISOF
+    /Symbol findfont
+    /Times-Bold ISOF
+    /Times-BoldItalic ISOF
+    /Times-Italic ISOF
+    /Times-Roman ISOF
+    /ZapfDingbats findfont
+    /ZapfChancery-MediumItalic ISOF
+] D
+/F {
+     FL exch get exch scalefont
+     [1 0 0 -1 0 0] makefont setfont} BD
+%%EndProlog
+%%BeginSetup
+<< /PageSize [595.2755737304688 841.8897705078125] /DeferredMediaSelection true /ImagingBBox null /ManualFeed false /NumCopies 1 >> setpagedevice 
+%%EndSetup
+%%Page: 1 1
+/pgSave save def
+841.8897705078125 0 exch translate 1 -1 scale[72 300.0 div 0 0 72 300.0 div 0 0]concat
+G
+[4.1666665 0.0 0.0 4.1666665 300.0 300.0] concat
+N
+0.0 0.0 M
+451.276 0.0 L
+451.276 697.89 L
+0.0 697.89 L
+0.0 0.0 L
+P
+WC
+10.0 8 F
+<3d3d3d2052454c4154d352494f204d522e204d41474943203d3d3d> 162.0 50.0 20.0 S
+10.0 8 F
+<50726f7072696574e172696f3a205465737465> 114.0 50.0 35.0 S
+10.0 8 F
+<4d6567612d53656e613a205b322c20342c20362c20392c2031352c2032315d> 186.0 50.0 65.0 S
+10.0 8 F
+<5175696e613a205b31322c2031342c2031352c2032312c2034395d> 162.0 50.0 80.0 S
+10.0 8 F
+<4c6f746f46e163696c3a205b312c20322c20332c20342c20352c20362c20372c20382c20392c2031302c2031322c2031342c2031352c2032312c2032355d> 372.0 50.0 95.0 S
+10.0 8 F
+<53656e613a205b362c20382c20392c2031322c2032312c2034395d> 162.0 50.0 110.0 S
+pgSave restore
+showpage
+%%EOF
