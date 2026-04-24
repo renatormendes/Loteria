@@ -4,6 +4,9 @@
 # Ignorar arquivos binários gerados pelo programa
 *.bin
 
+*.pdf
+
+
 # Ignorar pastas de sistema
 .DS_Store
 Thumbs.db
